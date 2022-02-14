@@ -1,0 +1,123 @@
+{
+  "_beagleComponent_": "beagle:listview",
+  "direction": "VERTICAL",
+  "useParentScroll": true,
+  "context": {
+    "id": "categories",
+    "value": []
+  },
+  "dataSource": "@{categories}",
+  "iteratorName": "category",
+  "onInit": [
+    {
+      "_beagleAction_": "beagle:sendRequest",
+      "url": "https://gist.githubusercontent.com/Tiagoperes/95f5900f956659e594d7c4a6d1b8a4c0/raw/3192187fd2f19fa3c3b483ae09efe44b9e2a9f90/categories.json",
+      "onSuccess": [
+        {
+          "_beagleAction_": "beagle:setContext",
+          "contextId": "categories",
+          "value": "@{onSuccess.data}"
+        }
+      ]
+    }
+  ],
+  "templates": [
+    {
+      "view": {
+        "_beagleComponent_": "beagle:container",
+        "style": {
+          "margin": {
+            "bottom": {
+              "value": 50,
+              "type": "REAL"
+            }
+          }
+        },
+        "children": [
+          {
+            "_beagleComponent_": "beagle:text",
+            "text": "@{category.name}",
+            "style": {
+              "margin": {
+                "bottom": {
+                  "value": 20,
+                  "type": "REAL"
+                }
+              }
+            }
+          },
+          {
+            "_beagleComponent_": "beagle:listview",
+            "direction": "HORIZONTAL",
+            "scrollEndThreshold": 80,
+            "context": {
+              "id": "moviePage",
+              "value": {
+                "page": 0,
+                "total_pages": 0,
+                "results": []
+              }
+            },
+            "onScrollEnd": [
+              {
+                "_beagleAction_": "beagle:sendRequest",
+                "url": "https://gist.githubusercontent.com/Tiagoperes/95f5900f956659e594d7c4a6d1b8a4c0/raw/3192187fd2f19fa3c3b483ae09efe44b9e2a9f90/@{category.path}.@{sum(moviePage.page, 1)}.json",
+                "onSuccess": [
+                  {
+                    "_beagleAction_": "beagle:setContext",
+                    "contextId": "moviePage",
+                    "value": {
+                      "page": "@{onSuccess.data.page}",
+                      "total_pages": "@{onSuccess.data.total_pages}",
+                      "results": "@{union(moviePage.results, onSuccess.data.results)}"
+                    }
+                  }
+                ]
+              }
+            ],
+            "dataSource": "@{moviePage.results}",
+            "iteratorName": "movie",
+            "templates": [
+              {
+                "view": {
+                  "_beagleComponent_": "beagle:touchable",
+                  "onPress": [
+                    {
+                      "_beagleAction_": "beagle:alert",
+                      "message": "Title: @{movie.original_title}\nGenre: @{category.name}\nRelease date: @{movie.release_date}\nRating: @{movie.vote_average}\n\n@{movie.overview}"
+                    }
+                  ],
+                  "child": {
+                    "_beagleComponent_": "beagle:image",
+                    "path": {
+                      "_beagleImagePath_": "remote",
+                      "url": "https://image.tmdb.org/t/p/w500/@{movie.poster_path}"
+                    },
+                    "style": {
+                      "size": {
+                        "width": {
+                          "value": 160,
+                          "type": "REAL"
+                        },
+                        "height": {
+                          "value": 240,
+                          "type": "REAL"
+                        }
+                      },
+                      "margin": {
+                        "right": {
+                          "value": 15,
+                          "type": "REAL"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
