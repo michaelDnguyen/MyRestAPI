@@ -28,7 +28,15 @@
         "style": {
           "margin": {
             "bottom": {
-              "value": 50,
+              "value": 30,
+              "type": "REAL"
+            },
+            "left": {
+              "value": 10,
+              "type": "REAL"
+            },
+            "right": {
+              "value": 10,
               "type": "REAL"
             }
           }
