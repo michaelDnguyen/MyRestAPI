@@ -1,0 +1,14 @@
+[
+{
+name: "Hài kịch",
+path: "/comedy"
+},
+{
+name: "Ngôn tình",
+path: "/drama"
+},
+{
+name: "Lãng mạn",
+path: "/romance"
+}
+]
