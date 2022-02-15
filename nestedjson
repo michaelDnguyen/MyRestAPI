@@ -11,7 +11,7 @@
   "onInit": [
     {
       "_beagleAction_": "beagle:sendRequest",
-      "url": "https://gist.githubusercontent.com/Tiagoperes/95f5900f956659e594d7c4a6d1b8a4c0/raw/3192187fd2f19fa3c3b483ae09efe44b9e2a9f90/categories.json",
+      "url": "https://raw.githubusercontent.com/michaelDnguyen/MyRestAPI/master/beagle_category",
       "onSuccess": [
         {
           "_beagleAction_": "beagle:setContext",
