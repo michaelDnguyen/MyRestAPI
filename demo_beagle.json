@@ -53,30 +53,7 @@
 "_beagleComponent_":"beagle:container",
 "style":{
 "flexDirection":"ROW"
-},
-"children":[
-{
-"_beagleComponent_":"beagle:button",
-"text":"Stack anterior",
-"onPress":[
-{
-"_beagleAction_":"beagle:popStack"
 }
-]
-},
-{
-"_beagleComponent_":"beagle:button",
-"text":"Próximo Stack",
-"onPress":[
-{
-"_beagleAction_":"beagle:pushStack",
-"route":{
-"url":"/stack2page1.json"
-}
-}
-]
-}
-]
 },
 {
 "_beagleComponent_":"beagle:button",
