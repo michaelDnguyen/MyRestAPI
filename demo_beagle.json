@@ -2,9 +2,9 @@
 "_beagleComponent_":"beagle:container",
 "style":{
 "flex":{
-"flexDirection":"COLUMN",
-"alignItems":"CENTER",
-"justifyContent":"CENTER"
+"flexDirection":"FLEX",
+"alignItems":"LEFT",
+"justifyContent":"LEFT"
 },
 "size":{
 "height":{
@@ -63,7 +63,8 @@
 "style":{
 "flexDirection":"ROW",
 "alignItems":"LEFT",
-"justifyContent":"LEFT"
+"alignSelf":"LEFT",
+"alignContent":"LEFT"
 },
 "children":[
 {
