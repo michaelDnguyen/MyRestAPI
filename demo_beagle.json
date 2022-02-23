@@ -38,12 +38,21 @@
 "_beagleComponent_":"beagle:text",
 "text":"NGUYEN VAN A",
 "textColor":"#333",
-"textSize":"20",
 "alignment":"CENTER",
 "style":{
 "margin":{
 "all":{
 "value":40,
+"type":"REAL"
+}
+},
+"size":{
+"width":{
+"value":200,
+"type":"REAL"
+},
+"height":{
+"value":50,
 "type":"REAL"
 }
 }
@@ -53,7 +62,34 @@
 "_beagleComponent_":"beagle:container",
 "style":{
 "flexDirection":"ROW"
+},
+"children":[
+{
+"_beagleComponent_":"beagle:text",
+"text":"Customer General information",
+"textColor":"#333",
+"alignment":"LEFT",
+"style":{
+"margin":{
+"all":{
+"value":5,
+"type":"REAL"
 }
+}
+}
+},
+{
+"_beagleComponent_":"beagle:button",
+"text":"Edit",
+"onPress":[
+{
+"_beagleAction_":"beagle:alert",
+"title":"Edit info",
+"message":"Edit general information of customer"
+}
+]
+}
+]
 },
 {
 "_beagleComponent_":"beagle:button",
