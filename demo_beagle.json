@@ -1,109 +1,163 @@
 {
-  "_beagleComponent_": "beagle:container",
   "style": {
     "flex": {
+      "alignItems": "CENTER",
       "flexDirection": "COLUMN",
-      "alignItems": "LEFT",
-      "justifyContent": "LEFT"
+      "justifyContent": "FLEX_START"
     },
     "size": {
       "height": {
-        "value": 100,
-        "type": "PERCENT"
+        "type": "PERCENT",
+        "value": 100
       }
     },
     "backgroundColor": "#FDECE4"
   },
   "children": [
     {
-      "_beagleComponent_": "beagle:image",
       "path": {
-        "_beagleImagePath_": "remote",
-        "url": "https://cdn4.iconfinder.com/data/icons/white-sportsman/512/sport_avatar_man_boy-15-512.png"
+        "url": "https://cdn4.iconfinder.com/data/icons/white-sportsman/512/sport_avatar_man_boy-15-512.png",
+        "_beagleImagePath_": "remote"
       },
       "style": {
         "size": {
           "width": {
-            "value": 100,
-            "type": "REAL"
+            "type": "REAL",
+            "value": 100
           },
           "height": {
-            "value": 100,
-            "type": "REAL"
-          }
-        }
-      }
-    },
-    {
-      "_beagleComponent_": "beagle:text",
-      "text": "NGUYEN VAN A",
-      "textColor": "#333",
-      "alignment": "CENTER",
-      "style": {
-        "margin": {
-          "all": {
-            "value": 40,
-            "type": "REAL"
+            "type": "REAL",
+            "value": 100
           }
         },
-        "size": {
-          "width": {
-            "value": 200,
-            "type": "REAL"
-          },
-          "height": {
-            "value": 50,
-            "type": "REAL"
+        "margin": {
+          "all": {
+            "type": "REAL",
+            "value": 10
           }
         }
-      }
+      },
+      "_beagleComponent_": "beagle:image"
     },
     {
-      "_beagleComponent_": "beagle:container",
+      "text": "NGUYEN VAN A",
       "style": {
-        "flexDirection": "ROW",
-        "alignItems": "LEFT",
-        "alignSelf": "LEFT",
-        "alignContent": "LEFT"
+        "size": {
+          "width": {
+            "type": "PERCENT",
+            "value": 100
+          }
+        },
+        "margin": {
+          "all": {
+            "type": "REAL",
+            "value": 5
+          }
+        }
+      },
+      "alignment": "CENTER",
+      "textColor": "#333",
+      "_beagleComponent_": "beagle:text"
+    },
+    {
+      "style": {
+        "flex": {
+          "alignItems": "FLEX_START",
+          "flexDirection": "ROW",
+          "justifyContent": "FLEX_START"
+        },
+        "backgroundColor": "#FFF",
+        "size": {
+          "width": {
+            "type": "PERCENT",
+            "value": 100
+          },
+          "height": {
+            "type": "REAL",
+            "value": 500
+          }
+        }
       },
       "children": [
         {
-          "_beagleComponent_": "beagle:text",
           "text": "Customer General information",
-          "textColor": "#333",
-          "alignment": "LEFT",
           "style": {
             "margin": {
               "all": {
-                "value": 5,
-                "type": "REAL"
+                "type": "REAL",
+                "value": 5
+              }
+            },
+            "size": {
+              "width": {
+                "type": "PERCENT",
+                "value": 70
               }
             }
-          }
+          },
+          "alignment": "LEFT",
+          "textColor": "#333",
+          "_beagleComponent_": "beagle:text"
         },
         {
-          "_beagleComponent_": "beagle:button",
           "text": "Edit",
+          "textColor": "#ff0000",
+          "alignment": "RIGHT",
           "onPress": [
             {
-              "_beagleAction_": "beagle:alert",
               "title": "Edit info",
-              "message": "Edit general information of customer"
+              "message": "Edit general information of customer",
+              "_beagleAction_": "beagle:alert"
             }
-          ]
+          ],
+          "style": {
+            "margin": {
+              "all": {
+                "type": "REAL",
+                "value": 2
+              }
+            },
+            "size": {
+              "width": {
+                "type": "REAL",
+                "value": 100
+              }
+            }
+          },
+          "_beagleComponent_": "beagle:text"
         }
-      ]
+      ],
+      "_beagleComponent_": "beagle:container"
     },
     {
-      "_beagleComponent_": "beagle:button",
-      "text": "Click here to show an Alert",
+      "text": "Update Profile",
       "onPress": [
         {
-          "_beagleAction_": "beagle:alert",
-          "title": "My Title",
-          "message": "Alert message"
+          "title": "Success",
+          "message": "Update your profile successful!",
+          "_beagleAction_": "beagle:alert"
         }
-      ]
+      ],
+      "style": {
+        "margin": {
+          "top": {
+            "type": "REAL",
+            "value": 10
+          }
+        },
+        "padding": {
+          "left": {
+            "type": "REAL",
+            "value": 16
+          },
+          "right": {
+            "type": "REAL",
+            "value": 16
+          }
+        }
+      },
+      "_beagleComponent_": "beagle:button"
     }
-  ]
+  ],
+  "_beagleComponent_": "beagle:container"
 }
