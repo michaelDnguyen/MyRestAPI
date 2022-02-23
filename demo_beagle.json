@@ -61,7 +61,9 @@
 {
 "_beagleComponent_":"beagle:container",
 "style":{
-"flexDirection":"ROW"
+"flexDirection":"ROW",
+"alignItems":"LEFT",
+"justifyContent":"LEFT"
 },
 "children":[
 {
