@@ -2,7 +2,7 @@
 "_beagleComponent_":"beagle:container",
 "style":{
 "flex":{
-"flexDirection":"COLUMN",
+"flexDirection":"FLEX",
 "alignItems":"LEFT",
 "justifyContent":"LEFT"
 },
