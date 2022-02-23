@@ -214,12 +214,297 @@
                 }
               },
               "alignment": "LEFT",
-              "textColor": "#555",
+              "textColor": "#777",
               "_beagleComponent_": "beagle:text"
             },
             {
               "text": "000123456",
-              "textColor": "#333",
+              "textColor": "#555",
+              "alignment": "RIGHT",
+              "_beagleComponent_": "beagle:text"
+            }
+          ],
+          "_beagleComponent_": "beagle:container"
+        },
+        {
+          "style": {
+            "flex": {
+              "alignItems": "FLEX_START",
+              "flexDirection": "ROW",
+              "justifyContent": "FLEX_START"
+            },
+            "backgroundColor": "#FFF",
+            "size": {
+              "width": {
+                "type": "PERCENT",
+                "value": 100
+              }
+            },
+            "margin": {
+              "top": {
+                "type": "REAL",
+                "value": 1
+              }
+            },
+            "padding": {
+              "all": {
+                "type": "REAL",
+                "value": 1
+              }
+            }
+          },
+          "children": [
+            {
+              "text": "Gender",
+              "style": {
+                "margin": {
+                  "all": {
+                    "type": "REAL",
+                    "value": 5
+                  }
+                },
+                "size": {
+                  "width": {
+                    "type": "PERCENT",
+                    "value": 80
+                  }
+                }
+              },
+              "alignment": "LEFT",
+              "textColor": "#777",
+              "_beagleComponent_": "beagle:text"
+            },
+            {
+              "text": "Nam",
+              "textColor": "#555",
+              "alignment": "RIGHT",
+              "_beagleComponent_": "beagle:text"
+            }
+          ],
+          "_beagleComponent_": "beagle:container"
+        },
+        {
+          "style": {
+            "flex": {
+              "alignItems": "FLEX_START",
+              "flexDirection": "ROW",
+              "justifyContent": "FLEX_START"
+            },
+            "backgroundColor": "#FFF",
+            "size": {
+              "width": {
+                "type": "PERCENT",
+                "value": 100
+              }
+            },
+            "margin": {
+              "top": {
+                "type": "REAL",
+                "value": 1
+              }
+            },
+            "padding": {
+              "all": {
+                "type": "REAL",
+                "value": 1
+              }
+            }
+          },
+          "children": [
+            {
+              "text": "Date of birth",
+              "style": {
+                "margin": {
+                  "all": {
+                    "type": "REAL",
+                    "value": 5
+                  }
+                },
+                "size": {
+                  "width": {
+                    "type": "PERCENT",
+                    "value": 80
+                  }
+                }
+              },
+              "alignment": "LEFT",
+              "textColor": "#777",
+              "_beagleComponent_": "beagle:text"
+            },
+            {
+              "text": "20/05/1990",
+              "textColor": "#555",
+              "alignment": "RIGHT",
+              "_beagleComponent_": "beagle:text"
+            }
+          ],
+          "_beagleComponent_": "beagle:container"
+        },
+        {
+          "style": {
+            "flex": {
+              "alignItems": "FLEX_START",
+              "flexDirection": "ROW",
+              "justifyContent": "FLEX_START"
+            },
+            "backgroundColor": "#FFF",
+            "size": {
+              "width": {
+                "type": "PERCENT",
+                "value": 100
+              }
+            },
+            "margin": {
+              "top": {
+                "type": "REAL",
+                "value": 1
+              }
+            },
+            "padding": {
+              "all": {
+                "type": "REAL",
+                "value": 1
+              }
+            }
+          },
+          "children": [
+            {
+              "text": "Mobiphone",
+              "style": {
+                "margin": {
+                  "all": {
+                    "type": "REAL",
+                    "value": 5
+                  }
+                },
+                "size": {
+                  "width": {
+                    "type": "PERCENT",
+                    "value": 80
+                  }
+                }
+              },
+              "alignment": "LEFT",
+              "textColor": "#777",
+              "_beagleComponent_": "beagle:text"
+            },
+            {
+              "text": "0979123456",
+              "textColor": "#555",
+              "alignment": "RIGHT",
+              "_beagleComponent_": "beagle:text"
+            }
+          ],
+          "_beagleComponent_": "beagle:container"
+        },
+        {
+          "style": {
+            "flex": {
+              "alignItems": "FLEX_START",
+              "flexDirection": "ROW",
+              "justifyContent": "FLEX_START"
+            },
+            "backgroundColor": "#FFF",
+            "size": {
+              "width": {
+                "type": "PERCENT",
+                "value": 100
+              }
+            },
+            "margin": {
+              "top": {
+                "type": "REAL",
+                "value": 1
+              }
+            },
+            "padding": {
+              "all": {
+                "type": "REAL",
+                "value": 1
+              }
+            }
+          },
+          "children": [
+            {
+              "text": "Email",
+              "style": {
+                "margin": {
+                  "all": {
+                    "type": "REAL",
+                    "value": 5
+                  }
+                },
+                "size": {
+                  "width": {
+                    "type": "PERCENT",
+                    "value": 65
+                  }
+                }
+              },
+              "alignment": "LEFT",
+              "textColor": "#777",
+              "_beagleComponent_": "beagle:text"
+            },
+            {
+              "text": "nguyenvana@mail.com",
+              "textColor": "#555",
+              "alignment": "RIGHT",
+              "_beagleComponent_": "beagle:text"
+            }
+          ],
+          "_beagleComponent_": "beagle:container"
+        },
+        {
+          "style": {
+            "flex": {
+              "alignItems": "FLEX_START",
+              "flexDirection": "ROW",
+              "justifyContent": "FLEX_START"
+            },
+            "backgroundColor": "#FFF",
+            "size": {
+              "width": {
+                "type": "PERCENT",
+                "value": 100
+              }
+            },
+            "margin": {
+              "top": {
+                "type": "REAL",
+                "value": 1
+              }
+            },
+            "padding": {
+              "all": {
+                "type": "REAL",
+                "value": 1
+              }
+            }
+          },
+          "children": [
+            {
+              "text": "Address",
+              "style": {
+                "margin": {
+                  "all": {
+                    "type": "REAL",
+                    "value": 5
+                  }
+                },
+                "size": {
+                  "width": {
+                    "type": "PERCENT",
+                    "value": 50
+                  }
+                }
+              },
+              "alignment": "LEFT",
+              "textColor": "#777",
+              "_beagleComponent_": "beagle:text"
+            },
+            {
+              "text": "Số 123 Đường A, P.B, Q.C, HCMC",
+              "textColor": "#555",
               "alignment": "RIGHT",
               "_beagleComponent_": "beagle:text"
             }
