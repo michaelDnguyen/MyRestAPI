@@ -1,0 +1,252 @@
+{
+_beagleComponent_: "beagle:container",
+children: [
+{
+_beagleComponent_: "beagle:container",
+style: {
+flex: {
+flexDirection: "ROW",
+justifyContent: "SPACE_BETWEEN",
+alignItems: "CENTER"
+},
+margin: {
+vertical: {
+value: 40,
+type: "REAL"
+}
+},
+backgroundColor: "#000000"
+},
+children: [
+{
+_beagleComponent_: "beagle:container",
+style: {
+padding: {
+all: {
+value: 8,
+type: "REAL"
+}
+},
+backgroundColor: "#FF0000"
+},
+children: [
+{
+_beagleComponent_: "beagle:text",
+text: "Hello"
+}
+]
+},
+{
+_beagleComponent_: "beagle:container",
+style: {
+size: {
+height: {
+value: 10,
+type: "REAL"
+},
+width: {
+value: 10,
+type: "REAL"
+}
+},
+backgroundColor: "#FFFFFF",
+cornerRadius: {
+radius: 5
+}
+}
+},
+{
+_beagleComponent_: "beagle:container",
+style: {
+padding: {
+all: {
+value: 8,
+type: "REAL"
+}
+},
+backgroundColor: "#00FF00"
+},
+children: [
+{
+_beagleComponent_: "beagle:text",
+text: "Beautiful"
+}
+]
+},
+{
+_beagleComponent_: "beagle:container",
+style: {
+size: {
+height: {
+value: 10,
+type: "REAL"
+},
+width: {
+value: 10,
+type: "REAL"
+}
+},
+backgroundColor: "#FFFFFF",
+cornerRadius: {
+radius: 5
+}
+}
+},
+{
+_beagleComponent_: "beagle:container",
+style: {
+padding: {
+all: {
+value: 8,
+type: "REAL"
+}
+},
+backgroundColor: "#0000FF"
+},
+children: [
+{
+_beagleComponent_: "beagle:text",
+text: "World!"
+}
+]
+}
+]
+},
+{
+_beagleComponent_: "beagle:container",
+style: {
+flex: {
+flexDirection: "ROW"
+},
+size: {
+height: {
+value: 20,
+type: "REAL"
+}
+}
+},
+children: [
+{
+_beagleComponent_: "beagle:container",
+style: {
+flex: {
+flex: 0.2
+},
+height: {
+value: 20,
+type: "REAL"
+},
+backgroundColor: "#FF0000"
+}
+},
+{
+_beagleComponent_: "beagle:container",
+style: {
+flex: {
+flex: 0.3
+},
+backgroundColor: "#00FF00"
+}
+},
+{
+_beagleComponent_: "beagle:container",
+style: {
+flex: {
+flex: 0.5
+},
+backgroundColor: "#0000FF"
+}
+}
+]
+},
+{
+_beagleComponent_: "beagle:container",
+style: {
+size: {
+width: {
+value: 100,
+type: "REAL"
+},
+height: {
+value: 100,
+type: "REAL"
+}
+},
+backgroundColor: "#000000",
+display: "NONE"
+}
+},
+{
+_beagleComponent_: "beagle:container",
+style: {
+margin: {
+top: {
+value: 100,
+type: "REAL"
+}
+}
+},
+children: [
+{
+_beagleComponent_: "beagle:container",
+style: {
+size: {
+width: {
+value: 100,
+type: "REAL"
+},
+height: {
+value: 100,
+type: "REAL"
+}
+},
+backgroundColor: "#00FF00"
+}
+},
+{
+_beagleComponent_: "beagle:container",
+style: {
+size: {
+width: {
+value: 150,
+type: "REAL"
+},
+height: {
+value: 150,
+type: "REAL"
+}
+},
+backgroundColor: "#0000FF"
+}
+},
+{
+_beagleComponent_: "beagle:container",
+style: {
+size: {
+width: {
+value: 50,
+type: "REAL"
+},
+height: {
+value: 50,
+type: "REAL"
+}
+},
+positionType: "ABSOLUTE",
+position: {
+bottom: {
+value: 20,
+type: "REAL"
+},
+left: {
+value: 10,
+type: "REAL"
+}
+},
+backgroundColor: "#FF0000"
+}
+}
+]
+}
+]
+}
