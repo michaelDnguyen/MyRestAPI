@@ -24,11 +24,11 @@
       "style": {
         "size": {
           "width": {
-            "value": 242,
+            "value": 100,
             "type": "REAL"
           },
           "height": {
-            "value": 225,
+            "value": 100,
             "type": "REAL"
           }
         }
@@ -47,6 +47,35 @@
           }
         }
       }
+    },
+{
+      "_beagleComponent_": "beagle:container",
+      "style": {
+        "flexDirection": "ROW"
+      },
+      "children": [
+        {
+          "_beagleComponent_": "beagle:button",
+          "text": "Stack anterior",
+          "onPress": [
+            {
+              "_beagleAction_": "beagle:popStack"
+            }
+          ]
+        },
+        {
+          "_beagleComponent_": "beagle:button",
+          "text": "Próximo Stack",
+          "onPress": [
+            {
+              "_beagleAction_": "beagle:pushStack",
+              "route": {
+                "url": "/stack2page1.json"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "_beagleComponent_": "beagle:button",
