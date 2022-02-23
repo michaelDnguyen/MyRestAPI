@@ -3,8 +3,8 @@
   "style": {
     "flex": {
       "flexDirection": "COLUMN",
-      "alignItems": "TOP",
-      "justifyContent": "CENTER"
+      "alignItems": "CENTER",
+      "justifyContent": "TOP"
     },
     "size": {
       "height": {
