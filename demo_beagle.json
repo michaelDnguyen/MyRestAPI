@@ -1,0 +1,63 @@
+{
+  "_beagleComponent_": "beagle:container",
+  "style": {
+    "flex": {
+      "flexDirection": "COLUMN",
+      "alignItems": "CENTER",
+      "justifyContent": "CENTER"
+    },
+    "size": {
+      "height": {
+        "value": 100,
+        "type": "PERCENT"
+      }
+    },
+    "backgroundColor": "#FFF"
+  },
+  "children": [
+    {
+      "_beagleComponent_": "beagle:image",
+      "path": {
+        "_beagleImagePath_": "remote",
+        "url": "https://i.ibb.co/rvRN9kv/logo.png"
+      },
+      "style": {
+        "size": {
+          "width": {
+            "value": 242,
+            "type": "REAL"
+          },
+          "height": {
+            "value": 225,
+            "type": "REAL"
+          }
+        }
+      }
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Welcome to Beagle playground! \nUse the left panel to start coding!",
+      "textColor": "#000",
+      "alignment": "CENTER",
+      "style": {
+        "margin": {
+          "all": {
+            "value": 40,
+            "type": "REAL"
+          }
+        }
+      }
+    },
+    {
+      "_beagleComponent_": "beagle:button",
+      "text": "Click here to show an Alert",
+      "onPress": [
+        {
+          "_beagleAction_": "beagle:alert",
+          "title": "My Title",
+          "message": "Alert message"
+        }
+      ]
+    }
+  ]
+}
