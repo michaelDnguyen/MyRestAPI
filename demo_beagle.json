@@ -3,8 +3,8 @@
 "style":{
 "flex":{
 "flexDirection":"COLUMN",
-"alignItems":"CENTER",
-"justifyContent":"CENTER"
+"alignItems":"LEFT",
+"justifyContent":"LEFT"
 },
 "size":{
 "height":{
