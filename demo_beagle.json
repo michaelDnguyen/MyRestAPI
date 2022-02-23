@@ -3,7 +3,7 @@
   "style": {
     "flex": {
       "flexDirection": "COLUMN",
-      "alignItems": "CENTER",
+      "alignItems": "TOP",
       "justifyContent": "CENTER"
     },
     "size": {
