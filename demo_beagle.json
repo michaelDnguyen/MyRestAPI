@@ -510,6 +510,381 @@
             }
           ],
           "_beagleComponent_": "beagle:container"
+        },
+        {
+          "style": {
+            "flex": {
+              "alignItems": "FLEX_START",
+              "flexDirection": "ROW",
+              "justifyContent": "FLEX_START"
+            },
+            "backgroundColor": "#888",
+            "size": {
+              "width": {
+                "type": "PERCENT",
+                "value": 100
+              },
+              "height": {
+                "type": "REAL",
+                "value": 1
+              }
+            },
+            "margin": {
+              "top": {
+                "type": "REAL",
+                "value": 10
+              },
+              "bottom": {
+                "type": "REAL",
+                "value": 10
+              }
+            }
+          },
+          "children": [
+          ],
+          "_beagleComponent_": "beagle:container"
+        },
+        {
+          "style": {
+            "flex": {
+              "alignItems": "FLEX_START",
+              "flexDirection": "ROW",
+              "justifyContent": "FLEX_START"
+            },
+            "backgroundColor": "#FFF",
+            "size": {
+              "width": {
+                "type": "PERCENT",
+                "value": 100
+              }
+            },
+            "margin": {
+              "top": {
+                "type": "REAL",
+                "value": 1
+              }
+            },
+            "padding": {
+              "all": {
+                "type": "REAL",
+                "value": 1
+              }
+            }
+          },
+          "children": [
+            {
+              "text": "Height",
+              "style": {
+                "margin": {
+                  "all": {
+                    "type": "REAL",
+                    "value": 5
+                  }
+                },
+                "size": {
+                  "width": {
+                    "type": "PERCENT",
+                    "value": 80
+                  }
+                }
+              },
+              "alignment": "LEFT",
+              "textColor": "#777",
+              "_beagleComponent_": "beagle:text"
+            },
+            {
+              "text": "170 cm",
+              "textColor": "#555",
+              "alignment": "RIGHT",
+              "_beagleComponent_": "beagle:text"
+            }
+          ],
+          "_beagleComponent_": "beagle:container"
+        },
+        {
+          "style": {
+            "flex": {
+              "alignItems": "FLEX_START",
+              "flexDirection": "ROW",
+              "justifyContent": "FLEX_START"
+            },
+            "backgroundColor": "#FFF",
+            "size": {
+              "width": {
+                "type": "PERCENT",
+                "value": 100
+              }
+            },
+            "margin": {
+              "top": {
+                "type": "REAL",
+                "value": 1
+              }
+            },
+            "padding": {
+              "all": {
+                "type": "REAL",
+                "value": 1
+              }
+            }
+          },
+          "children": [
+            {
+              "text": "Weight",
+              "style": {
+                "margin": {
+                  "all": {
+                    "type": "REAL",
+                    "value": 5
+                  }
+                },
+                "size": {
+                  "width": {
+                    "type": "PERCENT",
+                    "value": 80
+                  }
+                }
+              },
+              "alignment": "LEFT",
+              "textColor": "#777",
+              "_beagleComponent_": "beagle:text"
+            },
+            {
+              "text": "65 kg",
+              "textColor": "#555",
+              "alignment": "RIGHT",
+              "_beagleComponent_": "beagle:text"
+            }
+          ],
+          "_beagleComponent_": "beagle:container"
+        },
+        {
+          "style": {
+            "flex": {
+              "alignItems": "FLEX_START",
+              "flexDirection": "ROW",
+              "justifyContent": "FLEX_START"
+            },
+            "backgroundColor": "#FFF",
+            "size": {
+              "width": {
+                "type": "PERCENT",
+                "value": 100
+              }
+            },
+            "margin": {
+              "top": {
+                "type": "REAL",
+                "value": 1
+              }
+            },
+            "padding": {
+              "all": {
+                "type": "REAL",
+                "value": 1
+              }
+            }
+          },
+          "children": [
+            {
+              "text": "Prefer activities",
+              "style": {
+                "margin": {
+                  "all": {
+                    "type": "REAL",
+                    "value": 5
+                  }
+                },
+                "size": {
+                  "width": {
+                    "type": "PERCENT",
+                    "value": 80
+                  }
+                }
+              },
+              "alignment": "LEFT",
+              "textColor": "#777",
+              "_beagleComponent_": "beagle:text"
+            },
+            {
+              "text": "---",
+              "textColor": "#555",
+              "alignment": "RIGHT",
+              "_beagleComponent_": "beagle:text"
+            }
+          ],
+          "_beagleComponent_": "beagle:container"
+        },
+        {
+          "style": {
+            "flex": {
+              "alignItems": "FLEX_START",
+              "flexDirection": "ROW",
+              "justifyContent": "FLEX_START"
+            },
+            "backgroundColor": "#FFF",
+            "size": {
+              "width": {
+                "type": "PERCENT",
+                "value": 100
+              }
+            },
+            "margin": {
+              "top": {
+                "type": "REAL",
+                "value": 1
+              }
+            },
+            "padding": {
+              "all": {
+                "type": "REAL",
+                "value": 1
+              }
+            }
+          },
+          "children": [
+            {
+              "text": "Hour(s) doing exercises per week",
+              "style": {
+                "margin": {
+                  "all": {
+                    "type": "REAL",
+                    "value": 5
+                  }
+                },
+                "size": {
+                  "width": {
+                    "type": "PERCENT",
+                    "value": 80
+                  }
+                }
+              },
+              "alignment": "LEFT",
+              "textColor": "#777",
+              "_beagleComponent_": "beagle:text"
+            },
+            {
+              "text": "7 hour",
+              "textColor": "#555",
+              "alignment": "RIGHT",
+              "_beagleComponent_": "beagle:text"
+            }
+          ],
+          "_beagleComponent_": "beagle:container"
+        },
+        {
+          "style": {
+            "flex": {
+              "alignItems": "FLEX_START",
+              "flexDirection": "ROW",
+              "justifyContent": "FLEX_START"
+            },
+            "backgroundColor": "#FFF",
+            "size": {
+              "width": {
+                "type": "PERCENT",
+                "value": 100
+              }
+            },
+            "margin": {
+              "top": {
+                "type": "REAL",
+                "value": 1
+              }
+            },
+            "padding": {
+              "all": {
+                "type": "REAL",
+                "value": 1
+              }
+            }
+          },
+          "children": [
+            {
+              "text": "Health risk",
+              "style": {
+                "margin": {
+                  "all": {
+                    "type": "REAL",
+                    "value": 5
+                  }
+                },
+                "size": {
+                  "width": {
+                    "type": "PERCENT",
+                    "value": 90
+                  }
+                }
+              },
+              "alignment": "LEFT",
+              "textColor": "#777",
+              "_beagleComponent_": "beagle:text"
+            },
+            {
+              "text": "---",
+              "textColor": "#555",
+              "alignment": "RIGHT",
+              "_beagleComponent_": "beagle:text"
+            }
+          ],
+          "_beagleComponent_": "beagle:container"
+        },
+        {
+          "style": {
+            "flex": {
+              "alignItems": "FLEX_START",
+              "flexDirection": "ROW",
+              "justifyContent": "FLEX_START"
+            },
+            "backgroundColor": "#FFF",
+            "size": {
+              "width": {
+                "type": "PERCENT",
+                "value": 100
+              }
+            },
+            "margin": {
+              "top": {
+                "type": "REAL",
+                "value": 1
+              }
+            },
+            "padding": {
+              "all": {
+                "type": "REAL",
+                "value": 1
+              }
+            }
+          },
+          "children": [
+            {
+              "text": "Intergrated apps",
+              "style": {
+                "margin": {
+                  "all": {
+                    "type": "REAL",
+                    "value": 5
+                  }
+                },
+                "size": {
+                  "width": {
+                    "type": "PERCENT",
+                    "value": 90
+                  }
+                }
+              },
+              "alignment": "LEFT",
+              "textColor": "#777",
+              "_beagleComponent_": "beagle:text"
+            },
+            {
+              "text": "---",
+              "textColor": "#555",
+              "alignment": "RIGHT",
+              "_beagleComponent_": "beagle:text"
+            }
+          ],
+          "_beagleComponent_": "beagle:container"
         }
       ],
       "_beagleComponent_": "beagle:container"
