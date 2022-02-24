@@ -518,6 +518,39 @@
               "flexDirection": "ROW",
               "justifyContent": "FLEX_START"
             },
+            "backgroundColor": "#888",
+            "size": {
+              "width": {
+                "type": "PERCENT",
+                "value": 100
+              },
+              "height": {
+                "type": "REAL",
+                "value": 1
+              }
+            },
+            "margin": {
+              "top": {
+                "type": "REAL",
+                "value": 10
+              },
+              "bottom": {
+                "type": "REAL",
+                "value": 10
+              }
+            }
+          },
+          "children": [
+          ],
+          "_beagleComponent_": "beagle:container"
+        },
+        {
+          "style": {
+            "flex": {
+              "alignItems": "FLEX_START",
+              "flexDirection": "ROW",
+              "justifyContent": "FLEX_START"
+            },
             "backgroundColor": "#FFF",
             "size": {
               "width": {
@@ -586,39 +619,6 @@
               },
               "_beagleComponent_": "beagle:text"
             }
-          ],
-          "_beagleComponent_": "beagle:container"
-        },
-        {
-          "style": {
-            "flex": {
-              "alignItems": "FLEX_START",
-              "flexDirection": "ROW",
-              "justifyContent": "FLEX_START"
-            },
-            "backgroundColor": "#888",
-            "size": {
-              "width": {
-                "type": "PERCENT",
-                "value": 100
-              },
-              "height": {
-                "type": "REAL",
-                "value": 1
-              }
-            },
-            "margin": {
-              "top": {
-                "type": "REAL",
-                "value": 10
-              },
-              "bottom": {
-                "type": "REAL",
-                "value": 10
-              }
-            }
-          },
-          "children": [
           ],
           "_beagleComponent_": "beagle:container"
         },
