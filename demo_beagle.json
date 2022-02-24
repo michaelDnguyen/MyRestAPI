@@ -518,7 +518,7 @@
               "flexDirection": "ROW",
               "justifyContent": "FLEX_START"
             },
-            "backgroundColor": "#888",
+            "backgroundColor": "#aaa",
             "size": {
               "width": {
                 "type": "PERCENT",
