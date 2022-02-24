@@ -518,6 +518,84 @@
               "flexDirection": "ROW",
               "justifyContent": "FLEX_START"
             },
+            "backgroundColor": "#FFF",
+            "size": {
+              "width": {
+                "type": "PERCENT",
+                "value": 100
+              }
+            },
+            "margin": {
+              "top": {
+                "type": "REAL",
+                "value": 1
+              }
+            },
+            "padding": {
+              "all": {
+                "type": "REAL",
+                "value": 1
+              }
+            }
+          },
+          "children": [
+            {
+              "text": "Health & Well-being",
+              "style": {
+                "margin": {
+                  "all": {
+                    "type": "REAL",
+                    "value": 5
+                  }
+                },
+                "size": {
+                  "width": {
+                    "type": "PERCENT",
+                    "value": 70
+                  }
+                }
+              },
+              "alignment": "LEFT",
+              "textColor": "#333",
+              "_beagleComponent_": "beagle:text"
+            },
+            {
+              "text": "Edit",
+              "textColor": "#ff0000",
+              "alignment": "RIGHT",
+              "onPress": [
+                {
+                  "title": "Edit info",
+                  "message": "Edit general information of customer",
+                  "_beagleAction_": "beagle:alert"
+                }
+              ],
+              "style": {
+                "margin": {
+                  "all": {
+                    "type": "REAL",
+                    "value": 2
+                  }
+                },
+                "size": {
+                  "width": {
+                    "type": "REAL",
+                    "value": 100
+                  }
+                }
+              },
+              "_beagleComponent_": "beagle:text"
+            }
+          ],
+          "_beagleComponent_": "beagle:container"
+        },
+        {
+          "style": {
+            "flex": {
+              "alignItems": "FLEX_START",
+              "flexDirection": "ROW",
+              "justifyContent": "FLEX_START"
+            },
             "backgroundColor": "#888",
             "size": {
               "width": {
