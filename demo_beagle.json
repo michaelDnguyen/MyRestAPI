@@ -662,7 +662,7 @@
                 "size": {
                   "width": {
                     "type": "PERCENT",
-                    "value": 80
+                    "value": 90
                   }
                 }
               },
@@ -719,7 +719,7 @@
                 "size": {
                   "width": {
                     "type": "PERCENT",
-                    "value": 80
+                    "value": 90
                   }
                 }
               },
@@ -776,7 +776,7 @@
                 "size": {
                   "width": {
                     "type": "PERCENT",
-                    "value": 80
+                    "value": 90
                   }
                 }
               },
@@ -833,7 +833,7 @@
                 "size": {
                   "width": {
                     "type": "PERCENT",
-                    "value": 80
+                    "value": 90
                   }
                 }
               },
